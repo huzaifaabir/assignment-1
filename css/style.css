@@ -46,6 +46,7 @@ body {
     height: 58px;
     transition: all 0.2s linear;
 }
+
 #header .navbar button:hover {
     background-color: rgb(233, 233, 233);
 }
@@ -350,13 +351,16 @@ body {
     border-radius: 16px;
     padding: 40px;
 }
-#target .target-section .html-section{
+
+#target .target-section .html-section {
     background: rgba(255, 76, 30, 0.05);
 }
-#target .target-section .css-section{
+
+#target .target-section .css-section {
     background: rgba(0, 76, 232, 0.05);
 }
-#target .target-section .js-section{
+
+#target .target-section .js-section {
     background: rgba(255, 223, 0, 0.05);
 }
 
@@ -402,10 +406,182 @@ body {
     text-align: left;
     text-decoration-line: underline;
 }
+
 /* target-section end */
 /* next-target-section start */
+#next-target .next-target-content {
+    height: 866px;
+    margin: 74px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 74px;
+}
+
+#next-target .next-target-content .header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+#next-target .next-target-content .header h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#next-target .next-target-content .header p {
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#next-target .next-target-content .next-target-content-item {
+    height: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 24px;
+}
+
+#next-target .next-target-content .next-target-content-item img {
+    margin-right: 24px;
+}
+
+#next-target .next-target-content .next-target-content-item h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#next-target .next-target-content .next-target-content-item p {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+#next-target .next-target-content .next-target-content-item button {
+    background: none;
+    border: none;
+}
+
+#next-target .next-target-content .next-target-content-item button a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
 /* next-target-section end */
+/* sub-footer-section start */
+#sub-footer .footer-item {
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 74px auto;
+    border-radius: 16px;
+    background: url(../assets/handshake.jpg), rgb(93, 93, 93);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+#sub-footer .footer-item .header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#sub-footer .footer-item .header p {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#sub-footer .footer-item .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub-footer .footer-item .form input {
+    width: 548px;
+    padding: 19px 19px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 16px;
+}
+
+
+#sub-footer .footer-item .form button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#sub-footer .footer-item .form a {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sub-footer .footer-item {}
+
+#sub-footer .footer-item {}
+
+#sub-footer .footer-item {}
+
+#sub-footer .footer-item {}
+
+/* sub-footer-section end */
 
 /* footer-section start */
 #footer-section {
