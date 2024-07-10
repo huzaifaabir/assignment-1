@@ -291,15 +291,23 @@ body {
 
 }
 
-#inspiration iframe {
+#inspiration .video {
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#inspiration .video iframe {
 
     width: 1076px;
     height: 550px;
     margin: auto;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    padding: 32px;
 
 }
 
@@ -545,6 +553,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #sub-footer .footer-item .form input {
     width: 548px;
     padding: 19px 19px;
@@ -572,14 +581,6 @@ body {
     text-align: center;
     text-decoration: none;
 }
-
-#sub-footer .footer-item {}
-
-#sub-footer .footer-item {}
-
-#sub-footer .footer-item {}
-
-#sub-footer .footer-item {}
 
 /* sub-footer-section end */
 
@@ -623,7 +624,5 @@ body {
     transform: scale(1.1);
     filter: drop-shadow(0px 0px 2px rgb(155, 155, 155));
 }
-
-
 
 /* footer-section end */
